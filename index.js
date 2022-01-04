@@ -1,8 +1,8 @@
 import fetch from "node-fetch"
 
-// https://api.tomorrow.io/v4/timelines?location=-73.98529171943665,40.75872069597532&fields=temperature&timesteps=1h&units=metric&apikey=ljFzZQ1pysSEnDtMOfQg3II0JFmlslCz
+const API_KEY = "YOUR_API_KEY"
 
-const API_KEY = "ljFzZQ1pysSEnDtMOfQg3II0JFmlslCz"
+// https://api.tomorrow.io/v4/timelines?location=-73.98529171943665,40.75872069597532&fields=temperature&timesteps=1h&units=metric&apikey=API_KEY
 
 class TomorrowIOWrapper {
   #apiKey
